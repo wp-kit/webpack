@@ -1,0 +1,11 @@
+/*----------------------------------------------*\
+    #COMBINE BOTH THE FRAMEWORK & THEME
+\*----------------------------------------------*/
+
+@import 'framework/settings';   // ADD YOUR FRAMEWORK
+@import 'theme/settings';       // EDIT AS YOU WISH
+
+@import 'framework/framework';  // ADD YOUR FRAMEWORK
+@import 'theme/theme';          // EDIT AS YOU WISH
+
+
