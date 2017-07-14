@@ -10,7 +10,7 @@ To install just download this repo and place within your public folder / theme e
 
 To install you preferred framework, just use a package manager and update the references in style.css
 
-```bash
+```php
 composer require zurb/foundation
 ```
 
