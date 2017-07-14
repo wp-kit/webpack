@@ -6,8 +6,20 @@ ITCSS makes so assumptions on which framework you should use, if any, however we
 
 Examples of how to include the framework in the ITCSS strucutre can be found in the style.scss file.
 
-To install ITCSS in your development run within your public folder:
+To install just download this repo and place within your public folder / theme etc.
 
-```php
-composer create-project wp-kit/itcss .
+To install you preferred framework, just use a package manager and update the references in style.css
+
+```bash
+composer require zurb/foundation
+```
+
+```scss
+// inside styles/style.css
+
+@import '../vendor/zurb/foundation/scss/settings/settings';
+@import 'theme/settings'; 
+
+@import '../vendor/zurb/foundation/scss/foundation';
+@import 'theme/theme';
 ```
