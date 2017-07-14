@@ -1,0 +1,28 @@
+{
+	"name": "wp-kit/itcss",
+	"description": "This repo is a blank canvas file structure for scripts and styles using ITCSS methodology",
+	"keywords": ["wordpress", "themosis", "oop", "notifications"],
+	"homepage" : "https://github.com/wp-kit/itcss",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Creative Little Dots",
+			"email" : "tech@creativelittledots.co.uk",
+			"homepage" : "https://creativelittledots.co.uk/",
+			"role" : "Developers"
+		}
+	],
+	"require": {
+        "php": ">=5.6.4",
+        "illuminate/container": "5.*",
+        "illuminate/session": "5.*"
+    },
+	"type": "library",
+    "config": {
+		"preferred-install": "dist"
+	},
+	"repositories": [
+	],
+	"scripts": {
+	}
+}
