@@ -1,7 +1,7 @@
 {
 	"name": "wp-kit/itcss",
 	"description": "This repo is a blank canvas file structure for scripts and styles using ITCSS methodology",
-	"keywords": ["wordpress", "themosis", "oop", "notifications"],
+	"keywords": ["wordpress", "itcss", "foundation", "bootstrap"],
 	"homepage" : "https://github.com/wp-kit/itcss",
 	"license": "MIT",
 	"authors": [
