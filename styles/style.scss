@@ -2,9 +2,9 @@
     #COMBINE BOTH THE FRAMEWORK & THEME
 \*----------------------------------------------*/
 
-// @import '../bower_components/foundation/scss/foundation/settings';   // ADD YOUR FRAMEWORK
+// @import '.foundation/settings';   // ADD YOUR FRAMEWORK
 @import 'theme/settings';       // EDIT AS YOU WISH
 
-// @import '../bower_components/foundation/scss/foundation/foundation';  // ADD YOUR FRAMEWORK
+// @import 'foundation';  // ADD YOUR FRAMEWORK
 @import 'theme/theme';          // EDIT AS YOU WISH
 
