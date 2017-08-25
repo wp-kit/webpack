@@ -2,10 +2,9 @@
     #COMBINE BOTH THE FRAMEWORK & THEME
 \*----------------------------------------------*/
 
-// @import '../vendor/zurb/foundation/scss/settings/settings';   // ADD YOUR FRAMEWORK
+// @import '../bower_components/foundation/scss/foundation/settings';   // ADD YOUR FRAMEWORK
 @import 'theme/settings';       // EDIT AS YOU WISH
 
-// @import '../vendor/zurb/foundation/scss/foundation';   // ADD YOUR FRAMEWORK
+// @import '../bower_components/foundation/scss/foundation/foundation';  // ADD YOUR FRAMEWORK
 @import 'theme/theme';          // EDIT AS YOU WISH
-
 
