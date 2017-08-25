@@ -15,9 +15,9 @@ bower install foundation
 ```scss
 // inside styles/style.css
 
-@import '../bower_components/foundation/scss/foundation/settings';
+@import 'foundation/settings';
 @import 'theme/settings'; 
 
-@import '../bower_components/foundation/scss/foundation/foundation';
+@import 'foundation';
 @import 'theme/theme';
 ```
