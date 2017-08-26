@@ -12,6 +12,8 @@ To install you preferred framework, just use a package manager and update the re
 bower install foundation
 ```
 
+If you are using [```CodeKit```](https://codekitapp.com/) to compile then bower is already included in the filepaths, so you can just set your `@imports` as below.
+
 ```scss
 // inside styles/style.css
 
