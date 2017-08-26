@@ -6,7 +6,7 @@ ITCSS makes no assumptions on which framework you use, however we recommend usin
 
 To install just download this repo and place within your public folder / theme etc.
 
-To install you preferred framework, just use a package manager and update the references in style.css
+To install your preferred framework, just use a package manager and update the references in style.css
 
 ```php
 bower install foundation
