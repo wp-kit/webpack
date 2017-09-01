@@ -12,7 +12,7 @@ To install your preferred framework, just use a package manager and update the r
 bower install foundation-sites
 ```
 
-If you are using [```CodeKit```](https://codekitapp.com/) to compile then bower is already included in the filepaths, so you can just set your `@imports` as below.
+If you are using [```CodeKit```](https://codekitapp.com/) you may already have `foundation-sites` for e.g. included in the filepaths, so you can just set your `@imports` relatively, otherwise you can use `@import` as below:
 
 ```scss
 // inside styles/style.css
