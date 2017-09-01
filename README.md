@@ -9,7 +9,7 @@ To install just download this repo and place within your public folder / theme e
 To install your preferred framework, just use a package manager and update the references in style.css
 
 ```php
-bower install foundation
+bower install foundation-sites
 ```
 
 If you are using [```CodeKit```](https://codekitapp.com/) to compile then bower is already included in the filepaths, so you can just set your `@imports` as below.
