@@ -17,9 +17,9 @@ If you are using [```CodeKit```](https://codekitapp.com/) to compile then bower 
 ```scss
 // inside styles/style.css
 
-@import 'foundation-sites/settings';
+@import '../bower_components/foundation-sites/scss/settings/settings';
 @import 'theme/settings'; 
 
-@import 'foundation-sites';
+@import '../bower_components/foundation-sites/scss/foundation';
 @import 'theme/theme';
 ```
