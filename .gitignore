@@ -1,0 +1,7 @@
+scripts/*.min.js
+scripts/*.map
+styles/*.css
+styles/*.map
+.DS_Store
+node_modules
+package-lock.json
