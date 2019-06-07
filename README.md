@@ -1,25 +1,7 @@
 # ITCSS
 
-This repo is a blank canvas file structure for scripts and styles using [```ITCSS```](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/) methodology. 
-
-ITCSS makes no assumptions on which framework you use, however we recommend using a package manager such as [```Bower```](https://bower.io/) to import your framework if, for example, you are using frameworks such as [```Bootstrap```](http://getbootstrap.com/) or [```Foundation```](http://foundation.zurb.com/).
+This repo is a blank canvas file structure for scripts and styles using [```ITCSS```](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/) methodology - using Rollup to build your CSS and JS with sourcemaps.
 
 To install just download this repo and place within your public folder / theme etc.
 
-To install your preferred framework, just use a package manager and update the references in style.css
-
-```php
-bower install foundation-sites
-```
-
-If you are using [```CodeKit```](https://codekitapp.com/) you may already have `foundation-sites` for e.g. included in the filepaths, so you can just set your `@imports` relatively, otherwise you can use `@import` as below:
-
-```scss
-// inside styles/style.css
-
-@import '../bower_components/foundation-sites/scss/settings/settings';
-@import 'theme/settings'; 
-
-@import '../bower_components/foundation-sites/scss/foundation';
-@import 'theme/theme';
-```
+We have included two example libraries, `foundation-sites` and `slick-carousel`. To install your preferred framework, just use a package manager and update the references in `styles/style.scss` and `scripts/application.js`.
