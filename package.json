@@ -38,10 +38,10 @@
     "build:css": "npm run scss --silent && npm run postcss --silent",
     "build:js": "rollup --config",
     "build": "npm run build:css --silent && npm run build:js --silent",
-    "watch:css": "onchange './styles/application/**/*.scss' -- npm run build:css --silent",
+    "watch:css": "onchange './styles/**/*.scss' -- npm run build:css --silent",
     "watch:js": "rollup --config --watch",
     "watch": "npm-run-all --parallel 'watch:css --silent' 'watch:js --silent'",
-    "start": "npm run watch --silent"
+    "start": "npm run build && npm run watch --silent"
   },
   "dependencies": {
     "foundation-sites": "^6.5.3",
