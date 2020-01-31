@@ -1,6 +1,6 @@
 # ITCSS
 
-This repo is a blank canvas file structure for scripts and styles using [```ITCSS```](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/) methodology - using Rollup to build your CSS and JS with sourcemaps.
+This repo is a blank canvas file structure for scripts and styles using [```ITCSS```](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/) methodology - using Webpack to build your CSS and JS with sourcemaps and manifest file.
 
 To install just download this repo and place within your public folder / theme etc. and then run
 
@@ -16,16 +16,16 @@ You can then build JS and CSS files:
 npm run build
 ```
 
+You can watch JS and CSS files:
+
+```
+npm start
+```
+
 Commands can be seen in `package.json` file:
 
 ```
-"scss": "node-sass --output-style expanded --include-path node_modules ./styles/style.scss ./styles/style.css  --source-map ./styles/style.css.map",
-"postcss": "postcss --u autoprefixer -u cssnano -o ./styles/style.css < ./styles/style.css",
-"build:css": "npm run scss --silent && npm run postcss --silent",
-"build:js": "rollup --config",
-"build": "npm run build:css --silent && npm run build:js --silent",
-"watch:css": "onchange './styles/application/**/*.scss' -- npm run build:css --silent",
-"watch:js": "rollup --config --watch",
-"watch": "npm-run-all --parallel 'watch:css --silent' 'watch:js --silent'",
+"build": "export NODE_ENV=production; webpack --mode production",
+"watch": "webpack-dev-server --mode development --watch --hot --inline",
 "start": "npm run watch --silent"
 ```

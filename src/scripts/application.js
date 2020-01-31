@@ -2,6 +2,8 @@ import $ from 'jquery';
 import 'foundation-sites';
 import 'slick-carousel';
 
+__webpack_public_path__ = myAjax.dev_server_url;
+
 /* Your code here */
 
 $(document).ready(function($) {
@@ -10,4 +12,4 @@ $(document).ready(function($) {
   
 });
 
-
+module.hot && module.hot.accept();
